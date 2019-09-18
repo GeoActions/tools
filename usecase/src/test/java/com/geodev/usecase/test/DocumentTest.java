@@ -1,11 +1,13 @@
-package com.geodev.usecase;
+package com.geodev.usecase.test;
 
 import com.geodev.usecase.core.Document;
 import com.geodev.usecase.core.UseCase;
+import org.junit.Test;
 
-public class Application {
+public class DocumentTest {
 
-	public static void main(String[] args) {
+	@Test
+	public void generateTest() {
 		UseCase useCase = new UseCase();
 		useCase.setTitle("验证新建项目功能正确性");
 		useCase.setCode("TEST001");
