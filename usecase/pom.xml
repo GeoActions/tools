@@ -14,7 +14,7 @@
 	<properties>
 		<freemarker.version>2.3.28</freemarker.version>
 		<poi.version>4.0.1</poi.version>
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 	</properties>
 
 	<dependencies>
